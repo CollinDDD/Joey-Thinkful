@@ -1,0 +1,50 @@
+header {
+    background-color: #0B1C51;
+    
+}
+
+header h1 {
+    font-size: 52px;
+    font-family: "Gochi Hand";
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+nav ul li a {
+    font-family: Montserrat;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul li:last-child a {
+    margin-right: 0;
+}
+
+@media all and (min-width: 600px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+    header h1 {
+        font-size: 42px;
+        margin: 0 30px;
+        padding-top: 8px;
+    }
+    nav ul li a:hover {
+        color: #bdbdbd;
+    }
+}
